@@ -1,2 +1,6 @@
 # go-g
-Go utility packages
+
+![travis](https://travis-ci.org/crispgm/go-g.svg?branch=master)
+![codecov](https://codecov.io/gh/crispgm/go-g/branch/master/graph/badge.svg)
+
+Go utility packages.
