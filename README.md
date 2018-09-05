@@ -22,6 +22,8 @@ go get github.com/crispgm/go-g
   * `IsProduction`
 * net/mac
   * `GetMacAddr`
+* string/sanitizer
+  * `RemoveDelimiters`
 
 ## License
 
