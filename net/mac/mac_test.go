@@ -1,12 +1,13 @@
 package mac
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
 
 func TestGetMac(t *testing.T) {
 	addr, err := GetMacAddr()
-	if err == nil {
-		t.Log(addr)
-	} else {
-		t.Error(err)
-	}
+	assert.NoError(t, err)
+	t.Log(addr)
 }
