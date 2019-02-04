@@ -22,6 +22,6 @@ func TestCustomDelim(t *testing.T) {
 }
 
 func TestCustomDelimWithOtherChars(t *testing.T) {
-	tok := NewTokenizer("newsep  gow sep ffw", "w ", "sep")
+	tok := NewTokenizer("newsep  go  w w sep ffw", "w ", "sep")
 	assert.Equal(t, []string{"ne", "go", "ff"}, tok.Parse())
 }
