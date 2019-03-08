@@ -10,20 +10,29 @@ It is named after `g`, because we can call with `g.Foobar` once imported.
 ## Installation
 
 ```shell
-go get github.com/crispgm/go-g
+go get -u github.com/crispgm/go-g
 ```
 
 ## Usage
 
-* env
-  * `GetRuntimeEnv`
-  * `IsDevelopment`
-  * `IsStaging`
-  * `IsProduction`
-* net/mac
-  * `GetMacAddr`
-* string/sanitizer
-  * `RemoveDelimiters`
+### env
+
+* `GetRuntimeEnv`
+* `IsDevelopment`
+* `IsStaging`
+* `IsProduction`
+
+### net/mac
+
+* `GetMacAddr`
+
+### string/sanitizer
+
+* `RemoveDelimiters`
+
+### string/tokenizer
+
+* `Tokenizer`
 
 ## License
 
