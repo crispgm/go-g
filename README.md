@@ -5,7 +5,7 @@
 
 Go utility packages.
 
-It is named after `g`, because we can call with `g.Foobar` once imported.
+It is named after `g`, so we can call with `g.Foobar` once imported.
 
 ## Installation
 
@@ -25,6 +25,10 @@ go get -u github.com/crispgm/go-g
 ### net/mac
 
 * `GetMacAddr`
+
+### net/ip
+
+* `GetLocalIP`
 
 ### string/sanitizer
 
