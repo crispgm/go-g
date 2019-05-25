@@ -1,7 +1,11 @@
 package ip
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
 
 func TestGetLocalIP(t *testing.T) {
-	t.Log(GetLocalIP())
+	assert.NotEmpty(t, GetLocalIP())
 }
