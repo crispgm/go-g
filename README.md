@@ -30,6 +30,11 @@ go get -u github.com/crispgm/go-g
 
 * `GetLocalIP`
 
+### string
+
+* `ExistsInSlice`
+* `DedupSlice`
+
 ### string/sanitizer
 
 * `RemoveDelimiters`
