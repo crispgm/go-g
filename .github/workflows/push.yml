@@ -1,6 +1,6 @@
 on: push
-name: CI
-job:
+name: Test with GitHub workflow CI
+jobs:
   checks:
     name: run
     runs-on: ubuntu-latest
