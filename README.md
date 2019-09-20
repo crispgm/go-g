@@ -1,6 +1,7 @@
 # go-g
 
 ![travis](https://travis-ci.org/crispgm/go-g.svg?branch=master)
+![github-workflow-ci](https://github.com/crispgm/go-g/workflows/workflow-ci/badge.svg)
 ![codecov](https://codecov.io/gh/crispgm/go-g/branch/master/graph/badge.svg)
 
 Go utility packages.

@@ -1,5 +1,5 @@
 on: push
-name: Test with GitHub workflow CI
+name: workflow-ci
 jobs:
   checks:
     name: run
