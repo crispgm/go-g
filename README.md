@@ -23,6 +23,11 @@ go get -u github.com/crispgm/go-g
 * `IsStaging`
 * `IsProduction`
 
+### math
+
+* `Deg2Rad`
+* `Rad2Deg`
+
 ### net/mac
 
 * `GetMacAddr`
