@@ -1,6 +1,5 @@
 # go-g
 
-![travis](https://travis-ci.org/crispgm/go-g.svg?branch=master)
 ![github-workflow-ci](https://github.com/crispgm/go-g/workflows/workflow-ci/badge.svg)
 ![codecov](https://codecov.io/gh/crispgm/go-g/branch/master/graph/badge.svg)
 
@@ -18,36 +17,36 @@ go get -u github.com/crispgm/go-g
 
 ### env
 
-* `GetRuntimeEnv`
-* `IsDevelopment`
-* `IsStaging`
-* `IsProduction`
+- `GetRuntimeEnv`
+- `IsDevelopment`
+- `IsStaging`
+- `IsProduction`
 
 ### math
 
-* `Deg2Rad`
-* `Rad2Deg`
+- `Deg2Rad`
+- `Rad2Deg`
 
 ### net/mac
 
-* `GetMacAddr`
+- `GetMacAddr`
 
 ### net/ip
 
-* `GetLocalIP`
+- `GetLocalIP`
 
 ### string
 
-* `ExistsInSlice`
-* `DedupSlice`
+- `ExistsInSlice`
+- `DedupSlice`
 
 ### string/sanitizer
 
-* `RemoveDelimiters`
+- `RemoveDelimiters`
 
 ### string/tokenizer
 
-* `Tokenizer`
+- `Tokenizer`
 
 ## License
 
